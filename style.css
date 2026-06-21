@@ -43,13 +43,13 @@ body{
 
 
 button{
-    width: 100px;
+    width: 100%;
     aspect-ratio: 1/ 1;
     border-radius: 50px ;
     border: none;
     background-color:hsl(0, 0%, 30%) ;
     color: white;
-    font-size: 2rem;
+    font-size: 108rem;
     font-weight: bold ;
     cursor: pointer ;
 }
