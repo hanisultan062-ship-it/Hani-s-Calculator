@@ -16,18 +16,19 @@ body{
     background-color: hsl(0, 0%, 15%) ;
     max-width: 500px ;
     overflow: hidden ;
-    
+    box-sizing: border-box ;
     
 }
 
 #display{
     width: 100% ;
     padding: 20px ;
-    font-size:5rem ;
-    text-align: left ;
+    font-size:4rem ;
+    text-align: right ;
     border: none ;
-    background-color: hsl(0, 0%, 20%) ;
+    background-color: hsl(0, 0%, 22%) ;
     color: white;
+    box-sizing: border-box ;
    
 }
 
@@ -36,19 +37,19 @@ body{
 #keys{
     display: grid;
     grid-template-columns: repeat(4 ,1fr) ;
-    padding:25px ;
     gap: 10px;
+    padding:24px ;
 }
 
 
 button{
     width: 100px;
-    height: 100px;
+    aspect-ratio: 1/ 1;
     border-radius: 50px ;
     border: none;
     background-color:hsl(0, 0%, 30%) ;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold ;
     cursor: pointer ;
 }
